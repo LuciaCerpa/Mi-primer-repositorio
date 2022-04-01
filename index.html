@@ -9,10 +9,20 @@
 <body>
     <h1>Repositorio de git</h1>
     <p>
-        git add -A: Me permite enviar todos los archivos en estado 
-    </p>
-    git config --global user.name "John Doe"
-    git config --global user.email johndoe@example.com
+        git status : Me proporciona informacion sobre el estado del repositorio. Rama actual, listado commits
 
+        git add -A : Me permite enviar todos los archivos en estado 'Untraked' hacia el staging area
+            
+        git add 'nombreDelArchivo' : Envia SOLAMENTE al archivo indicado al staging area 
+
+        git commit -m "Mensaje de commit" : Genera un nuevo commit con los archivos que se encontraban en el staging
+        
+    </p>
+        git config --global user.name "John Doe"
+        git config --global user.email johndoe@example.com
+
+        git reset --soft
+        git reset --mixed
+        git reset --hard
 </body>
 </html>
